@@ -1,0 +1,227 @@
+{
+  "schemes": [
+    {
+      "id": "ayushman-bharat",
+      "name": "Ayushman Bharat - PMJAY",
+      "ministry": "Ministry of Labour and Employment",
+      "summary": "World's largest health insurance scheme providing free health insurance up to ₹5 lakh per family per year for vulnerable families.",
+      "description": "Ayushman Bharat - PM-JAY is a national health protection scheme that provides health insurance coverage to vulnerable families. It covers hospitalization costs, pre-hospitalization, and post-hospitalization treatment.",
+      "eligibility": [
+        "Landless agricultural laborers",
+        "BPL families",
+        "SC/ST households",
+        "Families without houses"
+      ],
+      "benefits": [
+        "Free hospitalization",
+        "Coverage up to ₹5 lakh per family per year",
+        "No restriction on pre-existing conditions",
+        "Coverage for 1,393 packages"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://pmjay.gov.in",
+      "icon": "🏥",
+      "color": "bg-blue-500"
+    },
+    {
+      "id": "reproductive-maternal",
+      "name": "Reproductive & Maternal Health",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Government initiative providing free maternal health services, antenatal care, and delivery services across rural and urban areas.",
+      "description": "RMHP focuses on providing safe and dignified pregnancy, childbirth, and post-natal care. It ensures every woman has access to quality maternal health services.",
+      "eligibility": [
+        "All pregnant women",
+        "All lactating mothers",
+        "All children",
+        "All eligible couples"
+      ],
+      "benefits": [
+        "Free antenatal care",
+        "Safe delivery services",
+        "Post-natal care",
+        "Family planning services",
+        "Counseling services"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://nrhm.gov.in",
+      "icon": "👶",
+      "color": "bg-pink-500"
+    },
+    {
+      "id": "rb-uidai",
+      "name": "Rashtriya Bal Swasthya Karyakram",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Comprehensive health scheme for children providing screening, diagnosis, and treatment of diseases at school and community levels.",
+      "description": "RBSK provides health screening and treatment for children from birth to 18 years in schools and communities to ensure better child health outcomes.",
+      "eligibility": [
+        "All children aged 0-18 years",
+        "School-going children",
+        "Children in ICDS centers"
+      ],
+      "benefits": [
+        "Free health screening",
+        "Treatment of identified conditions",
+        "Referral services",
+        "Preventive services"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://rbsk.gov.in",
+      "icon": "🧒",
+      "color": "bg-green-500"
+    },
+    {
+      "id": "njhp",
+      "name": "National Jal Jeevan Mission",
+      "ministry": "Ministry of Jal Shakti",
+      "summary": "Initiative to provide safe and adequate drinking water to every household through functional tap connections in villages.",
+      "description": "NJJM aims to provide tap water connection to every household in rural India, ensuring safe drinking water and reducing waterborne diseases.",
+      "eligibility": [
+        "All rural households",
+        "Schools and health centers",
+        "Community institutions"
+      ],
+      "benefits": [
+        "Free tap water connection",
+        "Safe drinking water",
+        "Reduced waterborne diseases",
+        "Improved sanitation"
+      ],
+      "coverage": "Rural areas across India",
+      "website": "https://jaljeevanmission.gov.in",
+      "icon": "💧",
+      "color": "bg-cyan-500"
+    },
+    {
+      "id": "mission-indradhanush",
+      "name": "Mission Indradhanush",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Campaign to improve immunization coverage by rapidly increasing vaccination rates across all age groups.",
+      "description": "Mission Indradhanush aims to vaccinate all children and pregnant women against vaccine-preventable diseases through intensive and targeted immunization campaigns.",
+      "eligibility": [
+        "All children aged 0-6 years",
+        "All pregnant women",
+        "Women of childbearing age"
+      ],
+      "benefits": [
+        "Free vaccination",
+        "Immunization against 12 diseases",
+        "Health camps and awareness",
+        "Mobile vaccination units"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://www.indiadispatch.com/mission-indradhanush",
+      "icon": "💉",
+      "color": "bg-purple-500"
+    },
+    {
+      "id": "nuhm",
+      "name": "National Urban Health Mission",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Scheme to provide primary health care services to urban poor and homeless population through Urban Health Centers.",
+      "description": "NUHM provides primary health care services including maternal and child health, family planning, and disease control services to urban populations.",
+      "eligibility": [
+        "Urban poor and homeless",
+        "Slum dwellers",
+        "All urban residents"
+      ],
+      "benefits": [
+        "Free primary health care",
+        "Maternal and child health services",
+        "Disease screening",
+        "Health awareness programs"
+      ],
+      "coverage": "Urban areas across India",
+      "website": "https://nrhm.gov.in/nuhm",
+      "icon": "🏙️",
+      "color": "bg-orange-500"
+    },
+    {
+      "id": "npcb",
+      "name": "National Programme for Control of Blindness",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Program to eliminate avoidable blindness through prevention, treatment, and rehabilitation services.",
+      "description": "NPCB aims to reduce the burden of avoidable blindness and visual impairment through early detection, treatment, and rehabilitation.",
+      "eligibility": [
+        "All persons with visual impairment",
+        "Suspected cataract cases",
+        "Diabetic patients"
+      ],
+      "benefits": [
+        "Free eye screening",
+        "Free cataract surgery",
+        "Low vision rehabilitation",
+        "Eyeglasses provision"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://npcb.nic.in",
+      "icon": "👁️",
+      "color": "bg-indigo-500"
+    },
+    {
+      "id": "ntep",
+      "name": "National TB Elimination Programme",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Program to eliminate tuberculosis through early detection, treatment, and prevention services completely free.",
+      "description": "NTEP aims to achieve TB elimination through universal access to rapid diagnosis, treatment, and care with free medicines and diagnostics.",
+      "eligibility": [
+        "All TB suspects",
+        "TB patients",
+        "Contacts of TB patients"
+      ],
+      "benefits": [
+        "Free TB diagnosis",
+        "Free anti-TB drugs",
+        "Nutritional support (DBT ₹500/month)",
+        "Chest X-ray services"
+      ],
+      "coverage": "All states and UTs",
+      "website": "https://tbindia.gov.in",
+      "icon": "🫁",
+      "color": "bg-red-500"
+    },
+    {
+      "id": "nmep",
+      "name": "National Malaria Elimination Programme",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Program to eliminate malaria through surveillance, vector control, diagnosis, and treatment services.",
+      "description": "NMEP aims to eliminate malaria by providing free diagnosis, treatment, and prevention services across all areas.",
+      "eligibility": [
+        "All malaria suspects",
+        "Malaria patients",
+        "All residents in endemic areas"
+      ],
+      "benefits": [
+        "Free malaria testing",
+        "Free treatment",
+        "Mosquito nets distribution",
+        "IEC activities"
+      ],
+      "coverage": "Endemic areas across India",
+      "website": "https://nvbdcp.gov.in",
+      "icon": "🦟",
+      "color": "bg-yellow-500"
+    },
+    {
+      "id": "asha",
+      "name": "ASHA Scheme",
+      "ministry": "Ministry of Health & Family Welfare",
+      "summary": "Accredited Social Health Activists provide maternal and child health services at grassroots level in every village.",
+      "description": "ASHA workers serve as bridge between community and health system, providing health awareness, maternal and child health services.",
+      "eligibility": [
+        "All rural communities",
+        "All villages",
+        "Urban slums"
+      ],
+      "benefits": [
+        "Health awareness",
+        "Maternal health support",
+        "Child health services",
+        "Grassroots health services"
+      ],
+      "coverage": "All rural areas and urban slums",
+      "website": "https://nrhm.gov.in/asha",
+      "icon": "👩‍⚕️",
+      "color": "bg-teal-500"
+    }
+  ]
+}

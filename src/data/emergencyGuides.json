@@ -1,0 +1,93 @@
+{
+  "emergencies": [
+    {
+      "id": "snakebite",
+      "title": "Snake Bite Emergency Response",
+      "icon": "🐍",
+      "severity": "critical",
+      "steps": [
+        {
+          "step": 1,
+          "action": "IMMOBILIZE",
+          "instructions": "Keep the bitten limb completely still. Do not move or panic.",
+          "duration": "Until medical help arrives",
+          "warning": "DO NOT try to catch or kill the snake"
+        },
+        {
+          "step": 2,
+          "action": "POSITION",
+          "instructions": "Keep the bitten area below heart level if possible",
+          "duration": "Maintain position",
+          "warning": "DO NOT massage the bitten area"
+        },
+        {
+          "step": 3,
+          "action": "REMOVE RESTRICTING ITEMS",
+          "instructions": "Remove jewelry, rings, watches from the bitten limb",
+          "duration": "Immediately",
+          "warning": "Swelling may occur quickly"
+        },
+        {
+          "step": 4,
+          "action": "CALL FOR HELP",
+          "instructions": "Call emergency number immediately",
+          "duration": "Do this first",
+          "warning": "Every minute counts - antivenom needed within 4-6 hours"
+        }
+      ],
+      "myths": [
+        {
+          "myth": "Suck out the venom",
+          "truth": "This doesn't work and causes harm"
+        },
+        {
+          "myth": "Apply tourniquet",
+          "truth": "Cuts off circulation and causes tissue death"
+        },
+        {
+          "myth": "Cut the bite",
+          "truth": "Increases infection risk and doesn't help"
+        }
+      ]
+    },
+    {
+      "id": "burns",
+      "title": "Burns Emergency Response",
+      "icon": "🔥",
+      "severity": "high",
+      "steps": [
+        {
+          "step": 1,
+          "action": "STOP THE BURNING",
+          "instructions": "Remove from heat source. Cool with water for 10-15 minutes",
+          "duration": "At least 10 minutes",
+          "warning": "Do not use ice - it can damage tissue"
+        },
+        {
+          "step": 2,
+          "action": "REMOVE CLOTHING",
+          "instructions": "Remove hot or burnt clothing gently",
+          "duration": "Immediately",
+          "warning": "If stuck to skin, leave it"
+        },
+        {
+          "step": 3,
+          "action": "COVER BURN",
+          "instructions": "Use clean, dry cloth to cover the burn",
+          "duration": "Until professional help",
+          "warning": "Do not apply ice, oil, or butter"
+        }
+      ],
+      "myths": [
+        {
+          "myth": "Apply ice directly",
+          "truth": "Can cause ice burns and damage tissue"
+        },
+        {
+          "myth": "Apply oil or ghee",
+          "truth": "Traps heat and worsens the burn"
+        }
+      ]
+    }
+  ]
+}

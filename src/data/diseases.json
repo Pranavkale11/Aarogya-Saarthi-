@@ -1,0 +1,54 @@
+{
+  "diseases": [
+    {
+      "id": "malaria",
+      "name": "Malaria",
+      "category": "Vector-Borne",
+      "description": "Prevention and management of malaria",
+      "icon": "🦟",
+      "riskLevel": "high",
+      "affectedRegions": ["North India", "Central India", "Northeast India"],
+      "chatbotType": "malaria"
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "category": "Non-Communicable",
+      "description": "Diabetes prevention through lifestyle",
+      "icon": "🩺",
+      "riskLevel": "high",
+      "affectedRegions": ["All regions"],
+      "chatbotType": "diabetes"
+    },
+    {
+      "id": "waterborne",
+      "name": "Waterborne Diseases",
+      "category": "Communicable",
+      "description": "Prevention of cholera, typhoid, and diarrhea",
+      "icon": "💧",
+      "riskLevel": "medium",
+      "affectedRegions": ["Rural areas"],
+      "chatbotType": "waterborne"
+    },
+    {
+      "id": "dengue",
+      "name": "Dengue Fever",
+      "category": "Vector-Borne",
+      "description": "Dengue prevention and awareness",
+      "icon": "🦟",
+      "riskLevel": "high",
+      "affectedRegions": ["Monsoon regions"],
+      "chatbotType": "dengue"
+    },
+    {
+      "id": "respiratory",
+      "name": "Respiratory Diseases",
+      "category": "Environmental",
+      "description": "COPD and respiratory health",
+      "icon": "🫁",
+      "riskLevel": "medium",
+      "affectedRegions": ["Urban and rural areas"],
+      "chatbotType": "respiratory"
+    }
+  ]
+}
