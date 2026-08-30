@@ -141,3 +141,38 @@ aarogya-saarthi/
 | `npm run eject` | Ejects CRA config (one-way operation) |
 
 ---
+
+## 🗺️ Roadmap
+
+- [ ] Multi-language support
+- [ ] Symptom-based triage suggestions
+- [ ] Wearable device integration
+- [ ] Enhanced offline model caching
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## ⚠️ Disclaimer
+
+Aarogya Saarthi is an assistive tool and **does not replace professional medical advice, diagnosis, or treatment**. Always consult a qualified healthcare provider for medical concerns.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">Made with ❤️ for accessible healthcare</p>
