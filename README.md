@@ -1,101 +1,143 @@
-# 1. Clone or create the project directory
-mkdir aarogya-saarthi
-cd aarogya-saarthi
+# 🩺 Aarogya Saarthi
 
-# 2. Create React app
-npx create-react-app .
+**Your AI-powered companion for health, right in your browser.**
 
-# 3. Install all dependencies
+Aarogya Saarthi (आरोग्य साथी — "Health Companion") is a Progressive Web App that brings AI-driven health assistance directly to the client. Powered by on-device machine learning, voice interaction, and offline-first architecture, it works reliably even in low-connectivity environments — no server-side AI calls required for core inference.
+
+<p align="center">
+  <img alt="React" src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white&style=for-the-badge">
+  <img alt="TensorFlow.js" src="https://img.shields.io/badge/TensorFlow.js-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge">
+  <img alt="ONNX Runtime" src="https://img.shields.io/badge/ONNX%20Runtime-Web-005CED?style=for-the-badge">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge">
+  <img alt="PWA" src="https://img.shields.io/badge/PWA-Ready-5A0FC8?logo=pwa&logoColor=white&style=for-the-badge">
+  <img alt="Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge">
+</p>
+
+---
+
+## ✨ Features
+
+- 🧠 **On-device AI inference** — Runs machine learning models directly in the browser using **TensorFlow.js** and **ONNX Runtime Web**, so predictions happen without round-tripping to a server.
+- 🤗 **Transformer-powered NLP** — Uses **@xenova/transformers** and **Hugging Face Inference** for natural language understanding and health-related Q&A.
+- 🎙️ **Voice interaction** — Built-in speech recognition lets users talk to the app naturally, powered by the Web Speech API.
+- 📴 **Offline-first PWA** — Service workers via **Workbox** cache assets and data so the app keeps working with poor or no internet connection.
+- 💾 **Local persistence** — Uses **IndexedDB (idb)** to store user data and history securely on-device.
+- ⚡ **Lightweight global state** — Powered by **Zustand** for fast, minimal-boilerplate state management.
+- 🎨 **Modern, responsive UI** — Styled with **Tailwind CSS** for a clean, mobile-friendly experience.
+- 🚀 **Instant deployment** — One-command deploys to **Vercel**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend Framework | React (Create React App) |
+| Routing | React Router DOM |
+| State Management | Zustand |
+| Styling | Tailwind CSS |
+| HTTP Client | Axios |
+| On-device ML | TensorFlow.js, ONNX Runtime Web |
+| NLP / Transformers | @xenova/transformers, Hugging Face Inference |
+| Voice | react-speech-recognition, Web Speech API |
+| Offline Support | Workbox (Service Workers) |
+| Local Storage | IndexedDB (idb) |
+| Deployment | Vercel |
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- npm
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Pranavkale11/Aarogya-Saarthi-.git
+cd Aarogya-Saarthi-
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+<details>
+<summary>📋 Full list of core dependencies (if setting up from scratch)</summary>
+
+```bash
+# Routing, state, networking, offline & storage
 npm install react-router-dom zustand axios idb workbox-cli workbox-window
+
+# On-device machine learning
 npm install @tensorflow/tfjs @tensorflow/tfjs-backend-webgl onnxruntime-web
+
+# Voice interaction
 npm install react-speech-recognition web-speech-api
+
+# Styling
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-npm install @xenova/transformers and npm install@huggingface/inference
 
-# 4. Create the file structure as shown above
-# Copy all the files to their respective locations
+# NLP / Transformers
+npm install @xenova/transformers @huggingface/inference
+```
+</details>
 
-# 5. Start the development server
+### 3. Start the development server
+```bash
 npm start
+```
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser. The page reloads automatically as you edit.
 
-# 6. Build for production
+### 4. Build for production
+```bash
 npm run build
+```
+This bundles the app in production mode into the `build/` folder, optimized and minified for the best performance.
 
-# 7. Deploy to Vercel
+### 5. Deploy to Vercel
+```bash
 npm install -g vercel
-vercel deploy --prod
+vercel deploy --prod
+```
 
+---
 
+## 📁 Project Structure
 
+```
+aarogya-saarthi/
+├── public/
+│   ├── index.html
+│   └── manifest.json          # PWA manifest
+├── src/
+│   ├── components/            # Reusable UI components
+│   ├── pages/                 # Route-level views
+│   ├── store/                 # Zustand stores
+│   ├── ml/                    # TensorFlow.js / ONNX model logic
+│   ├── voice/                 # Speech recognition hooks
+│   ├── services/               # Axios / Hugging Face API calls
+│   ├── utils/                  # Helper functions
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+```
 
-# Getting Started with Create React App
+> Adjust this to match your actual folder layout.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🧪 Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Runs the app in development mode |
+| `npm test` | Launches the interactive test runner |
+| `npm run build` | Builds the app for production |
+| `npm run eject` | Ejects CRA config (one-way operation) |
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
